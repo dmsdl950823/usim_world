@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@import url(main.css);
+
+@media all and (max-width:768px) {
+    html, body {overflow-x :hidden }
+	header, .wapper_body, .footer {width : 100%;}
+	
+	
+    /*header전체*/
+	header .top {margin : 3px auto;}
+	.tab_h1 { width : 40.625%; margin-top : 13px; }
+    h1 {width : 70%;}
+    
+	.head_right {width :59.375%;}
+	.top_select_1 ul { padding-bottom : 0}
+	.top_select_1 ul a{font-size : 0.7rem; padding-bottom : 0}
+	
+    
+    .search_wrap .srch_way {width : 23%; }
+    .search_wrap .search_sel a {padding-left : 12px; font-size:14px}
+
+    .search_wrap .searchwayUl {background-color :#fff; border:1px solid #d9d9d9; position : absolute; top : 33px; width : 100%; display : none;z-index: 100;}
+    .search_wrap .searchwayUl li {line-height: 32px; }
+    .search_wrap .searchwayUl li a{  font-size:14px; padding-left : 0; text-align: center;}
+
+    .search_wrap .search_box {width : 77%;}    
+    .search_box input.sbtn {margin-top:6px; width : 7.5%;}
+    
+    /*header 메뉴*/
+	header .navigation {height : 70px; margin-right : 1.5625%;}
+	.shopCategory_1 {height : 70px; padding-right : 1.5625%; padding : 0;}
+    .shopCategory_1 .gnbwrap_1 > li { width : 15.278%; height: 70px;  }
+    .shopCategory_1 .gnbwrap_1 > li > a { font-size : 17px; line-height: 70px;}
+    
+    .hammenu > div {width : 40px; height : 35px ;position : relative; margin : 17px auto;}
+    
+    /*내부메뉴*/
+    .shopCategory_1 .shop_innermenu {width : 57.2916% ; height : 760px; /*display : block; */top : 70px;}
+    
+    .council { font-size : 20px}
+    .Pnumber { font-size : 30px}
+    /*내부메뉴 E*/
+    
+    .info_phone {display : none;}
+    .opentime {display : none;}
+    
+	p.shop_back {display : none; position : absolute; top : 70px; left : 0; width : 100%; height : 100vh; background: rgba(0,0,0,0.2); z-index: 20;}
+    
+    /*컨텐츠*/
+    
+     /*광고*/
+    section.ad { width : 100%; margin : 13px auto ; height : 335px;}
+    
+    /*좌 컨텐츠*/
+    .wapper_body .cont_left article  { margin-bottom : 16px; }
+    
+    .cont_left .cont1_1,
+    .cont_left .cont1_2{background-position : 80% 156px}
+    .cont_left .cont2_1,
+    .cont_left .cont2_2{background-position : 80% 12px}
+    .cont_left .cont3_1,
+    .cont_left .cont3_2{background-position : 85% 55px; background-size : 60px 60px}
+    
+    
+    .wapper_body .cont_right > article{ height : 139px; margin-bottom : 17px;}
+    .cont_left .cont1_1,
+    .cont_left .cont1_2,
+    .cont_right > article.infocont {height : 287px}
+    
+	.cont_left .article_bttm > article {height : 140px;  }
+    .wapper_body .cont_left article a {padding : 12px 10%}
+    
+    .wapper_body .cont_left h3 { font-size : 24px; }
+    .cont_left .cont1_1 h3,
+    .cont_left .cont1_2 h3{ font-size : 30px}
+    .wapper_body .cont_left p { margin-top : 2px; font-size : 14px; }
+    .cont_left .cont1_1 p,
+    .cont_left .cont1_2 p { margin-top : 26px; font-size : 16px}
+   
+    
+    /*우 컨텐츠*/    
+    .infocont .bank_info_box { padding : 5px 0; height : 170px}
+    .infocont .bank h4{ font-size : 23px;}
+    .infocont .bankcont {margin-top : 0px}
+    .infocont .bankcont .bankInfo{font-size : 14px; margin-top : 7px; }
+    .infocont .bankcont .bankInfo strong{ font-size : 14px; }
+    
+    
+    .infocont .pic_lo_wrap { margin-top : 15px; }
+    .infocont .pic_lo_wrap > div { height : 102px; padding : 10px 0 }
+    .infocont .pic_lo_wrap > div:nth-of-type(2) { padding-top : 20px; }
+
+    .infocont .pic_lo_wrap h4 { margin-top : 0px; font-size : 15px; }  
+    
+    
+    .infocont .pickUp,
+    .infocont .location { background:none }
+    
+    article.news,article.notice {padding : 12px 7%;}
+    article.news h3 , article.notice h3 { font-size : 20px}
+    
+    .news .more_see,
+    .notice .more_see {font-size : 11px; top : 20px;}
+    
+    article .contentsLi {margin-top : 4px; height : 80px;}
+    article .contentsLi ul li:last-child{display : none;}
+    article .contentsLi ul li {line-height: 20px;}
+    
+    
+	
+	/*footer*/
+	.footer .bottom_cont{height : 40px;}
+	.footer .bottom_cont ul,
+    .footer .bottom_cont ul li{ height : 40px;} 
+    .footer .bottom_cont ul li a { display : block; line-height : 40px;}
+    
+    
+	.footer footer.detail_info {height : 140px;}
+	
+	.footer footer .detalewrap {height :140px;}
+    .footer .detail {width : 66.129%; height : 140px; padding:10px 0}
+    .footer .lg {width : 32.0652%; margin-top :13px; }
+    .footer .lg img{width : 100%;}
+    
+    .detail .d_info1{font-size : 12px; margin-bottom: 5px;}
+    .detail .d_info2{font-size : 10px; margin-bottom: 7px; }
+    .detail .copy{font-size : 10px;  color:#7e7e7e }
+	
+	
+    
+}

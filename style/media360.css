@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+@import url(main.css);
+
+@media all and (max-width:360px) {
+	html, body {overflow-x :hidden ; }
+	header, .wapper_body, #contents, .footer , .ad{width : 100%;}
+   
+    
+    /*header*/
+	.mobilebox {width : 100%; padding : 0 1.3157%; height : 30px; margin : 0;}
+	.t_hammenu { width : 6.5714%; height : 30px; }
+	.t_hammenu > div {width :20px; height : 20px ; margin-top : 7px; }
+    .t_hammenu p {width : 20px; height : 3px; background: #3076c9; position : absolute; }
+    .t_hammenu p:nth-of-type(1) {top : 0; left : 0; }
+    .t_hammenu p:nth-of-type(2) {top : 8px; left : 0; }
+    .t_hammenu p:nth-of-type(3) {top : 16px; left : 0; }
+	
+	.mobilebox .mo_h1 { width : 87.4285%; height : 30px;}
+	.mobilebox h1 {width : 151px; height : 20px; margin-top : -9px;}
+	.mobilebox h1 img {}
+	
+    /*내부메뉴*/
+	.shopCategory_1 div.shop_innermenu {  width : 74.6875%; height : 100vh; overflow-y: scroll; padding-bottom : 60px;}
+	.shopCategory_1 .depth1 .depth1_li { font-size : 20px; font-weight: 500}
+	.shopCategory_1 .depth1 > li {font-size : 15px;}
+	.shopCategory_1 .depth1 .depth2 li a {font-size : 15px;}
+	
+	.call_info {margin-top : 20px}
+    .council { font-size : 15px;}
+    .Pnumber { font-size : 20px}
+	/*내부메뉴 E*/
+	
+	
+	/*검색버튼*/
+	.mobilebox .mo_searchexeWrap { width : 6.0001%; height : 30px; margin : 0;  }
+	.mobilebox .mo_searchexe { height : 20px;margin-top : 7px;}
+	.mobilebox .mo_searchexe:before { width : 10px; height : 10px; border : 2px solid #3076c9;transform : translate(0,0)}
+	.mobilebox .mo_searchexe:after { width : 5px; height : 2px; transform :  translate(11px,13px) rotate(45deg) }
+	
+	.mobilebox .mo_search_close { width : 20px; height : 20px; position : relative; margin-top : 9px;}
+	.mobilebox .mo_search_close:before{width : 2px; height : 16px; background-color: #3076c9; transform : translateX(7px) }
+	.mobilebox .mo_search_close:after{ width : 16px; height : 2px; background-color: #3076c9; transform : translateY(7px) }
+	
+	.search_box  input.sbox {margin-right: 0}
+	.search_box  input.sbtn {margin-top:5px; width : 14px; height: 15px}
+	
+	
+	.shopCategory_1 .shop_innermenu {display : none;  width : 71.0526%; height : 1000px; top : 0px; }
+	
+    header .m_searchwrap .search_wrap {display : none; border:3px solid #1a3d67; height : 34px; width : 100%;}
+	
+	
+    /*상단 로그인*/
+	.top_select_2 ul {height : 30px;}
+	.top_select_2 ul li a {line-height : 30px; font-size : 11px;}
+	
+	
+    /*광고*/
+    section.ad { margin : 7px auto ; height : 153px;}
+	ul.ad_li {  bottom : 5px; margin-right :2px}
+	.ad_li li.on { background-color: #1a3d67; }
+	
+    /*컨텐츠*/
+    .cont_left,.cont_right {width : 100%; float : left;}
+    
+    /*좌 컨텐츠*/
+    .wapper_body .cont_left article  { margin-bottom : 7px; width : 49.1428%; height : 73px}    
+   
+    .cont_left .cont1_2,
+    .cont_left .cont2_2,
+    .cont_left .cont3_2{ margin-left:1.7144%;}
+    .cont_left .cont1_1{background:url(../images/cont2_1.jpg) no-repeat 95% bottom;}
+    .cont_left .cont1_2{background:url(../images/cont2_2.jpg) no-repeat 95% bottom;}
+    .cont_left .cont2_1{background:url(../images/cont2_3.jpg) no-repeat 95% bottom;}
+    .cont_left .cont2_2{ background:none;}
+    .cont_left .cont3_1,
+    .cont_left .cont3_2{background-position : 90% 25px; background-size : 25px 25px}
+    
+    .wapper_body .cont_left article a {padding : 22px 9%}
+    
+    .wapper_body .cont_left h3 {  font-size : 19px; text-align: left; }
+    .cont_left .cont2_2 h3 {  font-size : 17px; text-align: center;}
+    
+    
+    /*우 컨텐츠*/
+    .wapper_body .cont_right > article { margin : 0; width :  49.1428%; float:left;}
+    .wapper_body .cont_right > article { margin-bottom : 7px; height : 67px; }
+    .wapper_body .cont_right > article:nth-of-type(1){ height : 157px; width : 100%; margin-bottom : 7px}
+    .wapper_body .cont_right > article:nth-of-type(3){ margin-left : 1.7144%;}
+    
+    .infocont .bank_info_box { width : 74.6%; padding : 7px 0; height : 157px; float : left; }
+    .infocont .bank h4{ font-size : 20px;}
+    .infocont .bankcont {margin-top : 0px}
+    .infocont .bankcont .bankInfo{font-size : 12px; margin-top : 5px; }
+    .infocont .bankcont .bankInfo strong{ font-size : 12px; }
+    .infocont .bankcont .holder{font-size : 16px; margin-top : 6px}
+    
+    .infocont .pic_lo_wrap { margin:0; margin-left : 1.7144%;  width :23.4285% ; float: left;}
+    .infocont .pic_lo_wrap > div { width : 100%; height : 75px; float: left; }
+    .infocont .pic_lo_wrap > div:first-child { margin-bottom : 7px; padding-top : 5px; }
+    .infocont .pic_lo_wrap > div a {  padding : 15px 5px; }
+
+    .infocont .pic_lo_wrap h4 { font-size : 11px;}  
+    .infocont .pic_lo_wrap > div:nth-of-type(2) h4 {margin-top : -10px; }
+    
+    article.news,
+    article.notice {padding : 0 5% ; }
+    article.news h3 , article.notice h3 { margin-top : 0; font-size : 20px; line-height: 67px; cursor : pointer}
+    
+    .news .more_see,
+    .notice .more_see {top : 23px; right : 10%;}
+    
+    
+    /*밑으로 바로가기메뉴*/
+    .sidemenu_wrap {width : 100%; height : 120px;  margin-bottom : 10px; padding : 0 1.7144%} 
+    aside.sidemenu {width : 100%; height : 120px; border:none; border-radius: 0; background: none;left : 0; position : inherit}
+    
+    
+    aside.sidemenu ul {margin : 0;}
+    aside.sidemenu ul li {height : 60px; float:left; width : 33.3333%; border : 1px solid #abb4c3; border-left : none;}
+    aside.sidemenu ul li a {font-size : 10px; padding-top : 10px;}
+    aside.sidemenu ul li:nth-of-type(1),
+    aside.sidemenu ul li:nth-of-type(2),
+    aside.sidemenu ul li:nth-of-type(3){border-bottom :none}
+    aside.sidemenu ul li:nth-of-type(4){border-left :1px solid #abb4c3;}
+
+    
+    
+    /*footer*/
+	.footer .bottom_cont{height : 35px;}
+	.footer .bottom_cont ul,
+    .footer .bottom_cont ul li{ height : 35px;} 
+    .footer .bottom_cont ul li a {  line-height : 35px;}
+    
+    .footer footer.detail_info {height : 150px; padding : 0;}
+    
+    .footer .detail {width : 100%; height : 150px; text-align: center; padding : 25px 0;}
+    .footer .lg .lgcont_2 {display : none;}
+    
+    .detail .d_info1{display : none; }
+    .detail .d_info2{font-size : 7px; margin-bottom: 5px; }
+    .detail .copy{font-size : 6px; }
+	
+}

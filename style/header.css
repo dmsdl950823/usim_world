@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+.wrapper { width : 100%;}
+
+/*PC일때*/
+/*header전체*/
+header { width : 100%; z-index: 90}
+
+
+/*헤더중 윗부분*/
+.top { max-width : 1220px; margin : 20px auto; }
+.tab_h1 {width : 56.75%; float : left; }
+.tab_h1 h1 {/*width : 53.8461%;*/width :379px;  margin-top : 18px; height : 51px}
+.tab_h1 h1 a {width : 100%; display : block;}
+.tab_h1 h1 a img{width : 100%;}
+
+.head_right { width : 43.25%; float : right;  }
+.top_select_1 {width : 100%;}
+.top_select_1 ul {width : 100%; font-size : 15px; padding-bottom : 5px}
+.top_select_1 ul li { float : left; width : 16.6666%; text-align: center;}
+.top_select_1 ul li:nth-of-type(1),
+.top_select_1 ul li:nth-of-type(4) { font-weight : 600}
+
+/*검색창*/
+.search_wrap { position : relative; border:5px solid #1a3d67; height : 43px; }
+
+.srch_way {width : 24%; float : left; position : relative;  font-size : 15px;}
+.search_sel {line-height: 32px}
+.search_sel a {padding-left : 20px;}
+
+.searchwayUl {background-color :#fff; border:1px solid #d9d9d9; position : absolute; top : 33px; width : 100%; display : none;z-index: 100;}
+.searchwayUl li {line-height: 32px; }
+.searchwayUl li a{ display : block;padding-left : 20px;}
+.searchwayUl li a:hover{background-color: #dee8f5}
+
+
+.search_box {width : 76%; float :left}
+.search_box .sbox {float : left; width : 90%; height : 31px; padding-left : 25px;}
+.search_box .sbtn {position : relative; background:none; width : 6%; margin-top:4px}
+
+.mo_h1 {display : none;}
+
+
+
+/*gnb시작*/
+#gnb { position : relative;}
+.navigation {width : 100%; height : 99px;  background-color :#3076c9; box-shadow: 0px 5px 9px rgba(27, 66, 113, 0.3);}
+
+/*자주찾는 메뉴 - 수평*/
+.shopCategory_1 {max-width : 1220px; margin:0 auto; position : relative; }
+
+.gnbwrap_1 > li { float : left; width : 12.75%; text-align: center; }
+.gnbwrap_1 > li.tab_gnb {width : /*287px;*/ 23.4426%; position : relative;}
+.gnbwrap_1 > li strong {font-weight: 700; font-size: 23px;}
+.gnbwrap_1 > li > a {color:#fff;  line-height: 99px; font-size : 20px; display : block;}
+.hammenu{display : none;}
+
+
+
+/*내부메뉴*/
+ .shop_innermenu {position : absolute; top : 0; left : 0; width : 287px ; height : 646px; background: #4480c7 url(../images/pat.png) no-repeat 0 bottom; padding-top : 31px; box-shadow: 0px 5px 20px rgba(14, 37, 65, 0.5); z-index: 99; display: none}
+ .cat_intro {color :#fff; display : block;  font-size: 23px; text-align: center; cursor: default; }
+
+.depth1 { margin-top: 25px; text-align: left; padding-left : 50px;}
+.depth1 > li { font-weight: 500; }
+.depth1 a {color :#fff; font-size: 23px;}
+.depth1 .depth1_li {margin : 7px 0; display : inline-block;}
+.depth1 li:nth-of-type(5) a.depth1_li { color :#f5cf7d}
+.depth1 li.frequent_menu { display : none;}
+
+.depth1 .depth2 li {padding-left : 10px; line-height: 30px;}
+.depth1 .depth2 li a { font-size: 15px; font-weight: 400; }
+
+
+/*내부메뉴 숨겨야할 것.*/
+.call_info {display : none;}
+.m_searchwrap{display:none}
+.mobile_h { display : none;}
+.shop_back {display : none;}
